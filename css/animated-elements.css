@@ -1,0 +1,48 @@
+
+
+/* banner texts */
+.site-banner .hello-txt, .site-banner .profile-name, .site-banner .profile-desc, .site-banner .banner-btns { 
+    opacity: 0;
+    transform: translateX(-30%); 
+    transition: all 0.5s ease-out;
+}
+
+.site-banner .profile-name { transition-delay: 0.2s; }
+.site-banner .profile-desc { transition-delay: 0.4s; }
+.site-banner .banner-btns { transition-delay: 0.6s; }
+
+.doc-loaded .site-banner .hello-txt, .doc-loaded .site-banner .profile-name, .doc-loaded .site-banner .profile-desc, .doc-loaded .site-banner .banner-btns {
+    opacity: 1;
+    transform: translateX(0%);
+}
+/* \\\ banner texts */
+
+
+/* banner technologies */
+.site-banner .skill-box {
+    animation: skill-box-anim 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes skill-box-anim {
+    from { transform: scale(90%); }
+    to { transform: scale(110%); }
+}
+
+.site-banner .html-logo, .site-banner .css-logo, .site-banner .js-logo, .site-banner .angular-logo, .site-banner .react-logo, .site-banner .java-logo, .site-banner .spring-boot-logo {
+    left: 390px;
+    top: 310px;
+    transition: all 1s ease-out;
+}
+
+.doc-loaded .site-banner .html-logo { left: 220px; top: 30px; }
+.doc-loaded .site-banner .css-logo { left: 220px; top: 160px; }
+.doc-loaded .site-banner .js-logo { left: 140px; top: 230px; }
+.doc-loaded .site-banner .angular-logo { left: 170px; top: 350px; }
+.doc-loaded .site-banner .react-logo { left: 560px; top: 150px; }
+.doc-loaded .site-banner .java-logo { left: 480px; top: 30px; }
+.doc-loaded .site-banner .spring-boot-logo { left: 580px; top: 250px; }
+/* \\\\ banner technologies *
+
+
+
+

@@ -1,0 +1,22 @@
+
+
+/* container */
+.container { max-width: 1300px; width: 100%; padding-left: 15px; padding-right: 15px; margin: 0 auto; }
+.container-fluid { padding-left: 15px; padding-right: 15px; }
+/* \\\ container */
+
+
+
+/* titles */
+.cp-title-xsm, .cp-title-sm, .cp-title-md, .cp-title, .cp-title-lg, .cp-title-xlg { font-family: var(--font-sbold); }
+.cp-title-xsm { font-size: 12px; }
+.cp-title-sm { font-size: 14px; }
+.cp-title-md { font-size: 16px; }
+.cp-title { font-size: 18px; }
+.cp-title-lg { font-size: 22px; }
+.cp-title-xlg { font-size: 26px; }
+.cp-title-2xlg { font-size: 30px; }
+.cp-title-3xlg { font-size: 36px; }
+/* \\\ titles */
+
+

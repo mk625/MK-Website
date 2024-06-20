@@ -1,0 +1,26 @@
+
+
+/* common */
+@import url(../css/font.css);
+@import url(../css/colors.css);
+@import url(../css/animations.css);
+@import url(../css/global-values.css);
+@import url(../css/global.css);
+@import url(../css/style-bits.css);
+@import url(../css/flex.css);
+@import url(../css/responsive.css);
+@import url(../css/buttons.css);
+@import url(../css/components.css);
+/* \\\ common */
+
+
+/* specific screen */
+@import url(../css/home.css);
+
+
+
+@import url(../css/animated-elements.css);
+/* \\\ specific screen */
+
+
+

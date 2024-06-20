@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Scroll Animated Website </title>
+    <link rel="icon" href="./assets/images/site-logo-favicon.png" type="image/png">
+
+    <!-- libaries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- \\\ libararies -->
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/root.css">
+</head>
+<body data-scroll-val="0">
+    
+    <!-- header -->
+    <header class="site-header" id="site-header">
+        <div class="container d-flx aI-C jC-SB h100">
+            <div>
+                <a class="d-flx aI-C g-5">
+                    <img height="20px" src="./assets/images/site-logo.png" alt="logo">
+                </a>
+            </div>
+
+            <nav class="d-flx aI-C g-40">
+                <ul class="nav-lists">
+                    <li class="nav-list"><a class="nav-link"> Home </a></li>
+                    <li class="nav-list"><a class="nav-link"> About </a></li>
+                    <li class="nav-list"><a class="nav-link"> Projects </a></li>
+                    <li class="nav-list"><a class="nav-link"> Contact Us </a></li>
+                </ul>
+
+                <div>
+                    <a class="btn btn-primary"> Hire Me </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- \\\ header -->
+
+
+
+    <!-- banner -->
+    <section class="site-banner">
+        <div class="container h100 d-flx aI-C g-30">
+            <div class="col-md-6">
+                <div class="mB50">
+                    <div class="mB5 hello-txt"><span class="c-primary-text f28">Hello Recruiters!</span></div>
+                    <h1 class="mB5 f48 font-medium c-primary-text profile-name">
+                        I'm Nishanthini
+                        <br>
+                        a <span class="c-site-theme">Web Developer</span>
+                    </h1>
+                    <p class="profile-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, et! Ut, nostrum optio necessitatibus repellat iste quis libero labore expedita architecto voluptas quisquam nemo, tempore earum id dicta quidem esse.
+                    </p>
+                </div>
+                <div class="d-flx g-20 banner-btns">
+                    <a class="btn btn-primary">Call</a>
+                    <a class="btn btn-secondary">Download CV</a>
+                </div>
+            </div>
+
+            <div class="banner-img-col col-md-6 h100">
+                <ul class="skill-boxes">
+                    <li class="skill-box html-logo">
+                        <img class="skill-box-img" src="./assets/images/technologies/html-logo.png" alt="Skill image">
+                    </li>
+                    <li class="skill-box css-logo">
+                        <img class="skill-box-img" src="./assets/images/technologies/css-logo.png" alt="Skill image">
+                    </li>
+                    <li class="skill-box js-logo">
+                        <img class="skill-box-img" src="./assets/images/technologies/js-logo.png" alt="Skill image">
+                    </li>
+                    <li class="skill-box angular-logo">
+                        <img class="skill-box-img" src="./assets/images/technologies/angular-logo.png" alt="Skill image">
+                    </li>
+                    <li class="skill-box react-logo">
+                        <img class="skill-box-img" src="./assets/images/technologies/react-logo.png" alt="Skill image">
+                    </li>
+                    <li class="skill-box java-logo">
+                        <img class="skill-box-img" src="./assets/images/technologies/java-logo.png" alt="Skill image">
+                    </li>
+                    <li class="skill-box spring-boot-logo">
+                        <img class="skill-box-img" src="./assets/images/technologies/spring-boot-logo.png" alt="Skill image">
+                    </li>
+                </ul>
+                
+                <div class="d-flx aI-FE jC-FE h-inherit pos-rel zI-1">
+                    <img class="banner-profile-img" src="./assets/images/banner-profile.png" alt="Banner Profile">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- \\\ banner -->
+
+
+
+    <!-- timeline -->
+    <section class="timeline-sec" id="timeline-sec">
+        <div class="container h100">
+            
+            <div class="timeline-box">
+                <div>
+                    <button class="plain-btn control-btn" onclick="toggle_book_page.previous()">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="book-container" id="timeline-book-container" data-rotatex="70" style="transform: perspective(800px) rotateX(70deg);">
+                    <ul class="papers">
+                        <li class="paper paper-6">
+                            <div class="paper-page paper-front paper-6-front">
+                                Paper 6 front
+                            </div>
+                            <div class="paper-page paper-back paper-6-back">
+                                Paper 6 back
+                            </div>
+                        </li>
+                        <li class="paper paper-5">
+                            <div class="paper-page paper-front paper-5-front">
+                                Paper 5 front
+                            </div>
+                            <div class="paper-page paper-back paper-5-back">
+                                Paper 5 back
+                            </div>
+                        </li>
+                        <li class="paper paper-4">
+                            <div class="paper-page paper-front paper-4-front">
+                                Paper 4 front
+                            </div>
+                            <div class="paper-page paper-back paper-4-back">
+                                Paper 4 back
+                            </div>
+                        </li>
+                        <li class="paper paper-3">
+                            <div class="paper-page paper-front paper-3-front">
+                                Paper 3 front
+                            </div>
+                            <div class="paper-page paper-back paper-3-back">
+                                Paper 3 back
+                            </div>
+                        </li>
+                        <li class="paper paper-2">
+                            <div class="paper-page paper-front paper-2-front">
+                                Paper 2 front
+                            </div>
+                            <div class="paper-page paper-back paper-2-back">
+                                Paper 2 back
+                            </div>
+                        </li>
+                        <li class="paper paper-1 current-paper">
+                            <div class="paper-page paper-front paper-1-front"></div>
+                            <div class="paper-page paper-back paper-1-back">
+                                Paper 1 back
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <button class="plain-btn control-btn" onclick="toggle_book_page.next()">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- \\\ timeline -->
+
+
+
+    <!-- projects -->
+    <section class="projects-sec" style="height: 700px;">
+
+    </section>
+    <!-- \\\ projects -->
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <!-- scripts -->
+        <!-- libraries -->
+        <script src="./js/libraries/jquery.js"></script>
+        <!-- \\\ libraries -->
+
+        <!-- own scripts -->
+        <script src="./js/home.js"></script>
+        <script src="./js/components.js"></script>
+        <script src="./js/onscroll.js"></script>
+        <!-- \\\ own scripts -->
+    <!-- \\\ scripts -->
+
+
+</body>
+</html>
+

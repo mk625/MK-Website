@@ -1,0 +1,22 @@
+
+
+:root {
+    --trans: all ease-in-out;
+    --point-one-sec: 0.1s;
+    --point-two-sec: 0.2s;
+    --point-three-sec: 0.3s;
+    --point-five-sec: 0.5s;
+    
+    --u-fast-trans: var(--trans) var(--point-one-sec);
+    --fast-trans: var(--trans) var(--point-two-sec);
+    --default-trans: var(--trans) var(--point-three-sec);
+    --slow-trans: var(--trans) var(--point-five-sec);
+}
+
+
+.u-fast-trans { transition: var(--u-fast-trans); }
+.fast-trans { transition: var(--fast-trans); }
+.default-trans { transition: var(--default-trans); }
+.fast-trans { transition: var(--fast-trans); }
+
+

@@ -1,0 +1,161 @@
+
+
+/* header */
+.site-header {
+    width: 100%;
+    height: var(--h-header);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transition: var(--default-trans);
+}
+
+.site-header.sticky-header {
+    height: var(--h-header-expanded);
+    background-color: var(--c-site-theme-xlite);
+    box-shadow: var(--shadow-default);
+    z-index: 10;
+}
+
+.site-header .nav-lists {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.site-header .nav-lists .nav-link {
+    color: var(--c-blue-gray-40);
+    transition: var(--default-trans);
+}
+
+.site-header .nav-lists .nav-link:hover {
+    color: var(--c-link);
+}
+/* \\\ header */
+
+
+
+/* site banner */
+.site-banner {
+    height: 800px;
+    background-image: linear-gradient(to right, var(--c-white), #eaf7ff);
+    padding-top: var(--h-header);
+}
+
+.site-banner .banner-img-col {
+    position: relative;
+}
+
+.site-banner .banner-profile-img {
+    height: 650px;
+}
+
+.site-banner .skill-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--c-white);
+    border-radius: var(--br-radius-global);
+    position: absolute;
+    box-shadow: var(--shadow-default-heavy);
+}
+
+.doc-loaded .site-banner .skill-box-img { width: 36px }
+/* \\\ site banner */
+
+
+
+/* timeline sec */
+.timeline-sec {
+    height: 100vh;
+}
+
+.timeline-sec .timeline-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: inherit;
+}
+
+.timeline-sec .book-container {
+    transition: var(--point-five-sec);
+}
+
+.timeline-sec .papers {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    border-radius: var(--br-radius-global);
+    position: relative;
+}
+
+.timeline-sec .paper {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background-color: var(--c-white);
+    color: var(--c-black);
+    position: absolute;
+
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    transform-origin: left;
+    perspective: 1500px;
+    backface-visibility: hidden;
+}
+
+.timeline-sec .paper-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--c-blue-gray-95);
+    border: 1px solid var(--c-black);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.timeline-sec .paper.paper-flipped {
+    transform: rotateY(-180deg);
+}
+
+.timeline-sec .paper.paper-1 {
+    z-index: 1;
+}
+
+.timeline-sec .paper-1-front {
+    background: url(../assets/images/book-cover-front.png) no-repeat;
+    background-size: cover;
+}
+
+.timeline-sec .paper-front {
+    z-index: 1;
+}
+
+.timeline-sec .paper-back {
+    z-index: 0;
+    transform: rotateY(-180deg);
+}
+
+.timeline-sec .paper-1-front { background-color: #cfe1d4; }
+.timeline-sec .paper-1-back { background-color: #cfcab8; }
+.timeline-sec .paper-2-front { background-color: #cfd2e1; }
+.timeline-sec .paper-2-back { background-color: #cfb8c6; }
+.timeline-sec .paper-3-front { background-color: #cfe1d4; }
+.timeline-sec .paper-3-back { background-color: #cfcab8; }
+.timeline-sec .paper-4-front { background-color: #cfd2e1; }
+.timeline-sec .paper-4-back { background-color: #cfb8c6; }
+.timeline-sec .paper-5-front { background-color: #cfe1d4; }
+.timeline-sec .paper-5-back { background-color: #cfcab8; }
+.timeline-sec .paper-6-front { background-color: #cfd2e1; }
+.timeline-sec .paper-6-back { background-color: #cfb8c6; }
+/* \\\ timeline sec */
+
+
+
+
+

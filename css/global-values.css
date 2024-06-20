@@ -1,0 +1,16 @@
+
+
+:root {
+    --h-header: 70px;
+    --h-header-expanded: 80px;
+
+    --br-radius-global-md: 4px;
+    --br-radius-global: 6px;
+    --br-radius-global-lg: 10px;
+
+    /* shadows */
+    --shadow-default: 1px 1px 8px #ebf0f2;
+    --shadow-default-heavy: 1px 1px 20px #ebf0f2;
+    /* \\\ shadows */
+}
+
