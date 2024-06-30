@@ -67,52 +67,6 @@
 
 
 
-
-/* features */
-.features-sec {
-    padding: 80px 0;
-}
-
-.features-sec .cols {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-    justify-content: center;
-}
-
-.features-sec .col {
-    padding: 30px;
-    background-color: var(--c-site-theme);
-    color: var(--c-white);
-    border-radius: 8px;
-    position: relative;
-    top: 150px;
-    transition: all 1s ease-out, opacity 2s ease-out;
-    transform: scale(80%);
-    opacity: 0;
-}
-
-.features-sec .col-1 { transition-delay: 0.1s; }
-.features-sec .col-2 { transition-delay: 0.2s; }
-.features-sec .col-3 { transition-delay: 0.3s; }
-.features-sec .col-4 { transition-delay: 0.4s; }
-.features-sec .col-5 { transition-delay: 0.5s; }
-.features-sec .col-6 { transition-delay: 0.6s; }
-
-.features-sec .col-icon {
-    font-size: 50px;
-    color: var(--c-white);
-    margin: 0 0 15px;
-}
-
-.features-sec .col-title {
-    color: var(--c-white);
-}
-/* \features */
-
-
-
-
 /* timeline sec */
 .timeline-sec {
     height: 100vh;
