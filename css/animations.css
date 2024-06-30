@@ -20,3 +20,7 @@
 .fast-trans { transition: var(--fast-trans); }
 
 
+/* features sec */
+.features-sec.features-sec-anim .col { top: 0px; transform: scale(100%); opacity: 1; }
+/* \\\ features sec */
+

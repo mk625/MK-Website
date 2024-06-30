@@ -8,7 +8,7 @@
 
 
 /* titles */
-.cp-title-xsm, .cp-title-sm, .cp-title-md, .cp-title, .cp-title-lg, .cp-title-xlg { font-family: var(--font-sbold); }
+.cp-title-xsm, .cp-title-sm, .cp-title-md, .cp-title, .cp-title-lg, .cp-title-xlg, .cp-title-2xlg, .cp-title-3xlg { font-family: var(--font-sbold); color: var(--c-gray-10); }
 .cp-title-xsm { font-size: 12px; }
 .cp-title-sm { font-size: 14px; }
 .cp-title-md { font-size: 16px; }
@@ -18,5 +18,19 @@
 .cp-title-2xlg { font-size: 30px; }
 .cp-title-3xlg { font-size: 36px; }
 /* \\\ titles */
+
+
+/* heading */
+.heading {
+    text-align: center;
+    width: min(100%, 700px);
+    margin: 0 auto 50px;
+}
+
+.heading h4 {
+    color: var(--c-site-theme);
+}
+  /* \heading */
+
 
 
